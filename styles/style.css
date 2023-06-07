@@ -9,22 +9,20 @@
 }
 body {
   text-align: center;
-
+  font-family: var(--font-poppins);
   background: var(--background-main);
 }
 h1 {
   font-family: var(--font-nunito);
   font-size: 96px;
 }
-h3 {
-  font-family: var(--font-poppins);
+p {
   font-weight: 400;
   font-size: 22px;
   line-height: 36px;
   color: #0f050c;
 }
 h4 {
-  font-family: var(--font-poppins);
   font-size: 36px;
   font-weight: 700;
   line-height: 54px;
@@ -53,7 +51,13 @@ h4 {
   border-radius: 4px;
   text-decoration: none;
   padding: 18px 30px;
-  margin: 49px auto;
+}
+.project-button {
+  margin-top: 0;
+  border: 1px solid #ffc7c2;
+  background: var(--background-main);
+  color: var(--accent-color);
+  margin-bottom: 100px;
 }
 .project-overview-intro {
   margin-top: 47px;
@@ -64,19 +68,40 @@ h4 {
 }
 .footer {
   background: var(--background-accent);
-  height: 100px;
+  padding: 20px auto;
+  margin-top: 0px;
+}
+.col-4 {
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 .icon {
-  width: 30px;
+  font-size: 20px;
   color: var(--text-main);
+  opacity: 70%;
 }
 .footer-text {
   font-family: var(--font-nunito);
-  font-size: 16px;
+  font-size: 20px;
+  opacity: 70%;
 }
 .github {
   text-decoration: none;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 80px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .header-content {
+    padding: 150px 20px;
+  }
+  .footer-text {
+    font-size: 8px;
+  }
 }
