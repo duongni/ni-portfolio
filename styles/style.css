@@ -72,13 +72,17 @@ h4 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 0;
 }
 
 .icon {
-  font-size: 30px;
+  font-size: 20px;
   padding: 10px;
   color: var(--text-main);
   opacity: 70%;
+}
+.coder-info {
+  font-size: 12px;
 }
 .footer-text {
   font-family: var(--font-nunito);
@@ -87,6 +91,7 @@ h4 {
 }
 .github {
   text-decoration: none;
+  color: var(--accent-color);
 }
 @media (max-width: 900px) {
   h1 {
