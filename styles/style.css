@@ -68,15 +68,15 @@ h4 {
 }
 .footer {
   background: var(--background-accent);
-  padding: 20px auto;
   margin-top: 0px;
-}
-.col-4 {
   display: flex;
+  justify-content: space-around;
   align-items: center;
 }
+
 .icon {
-  font-size: 20px;
+  font-size: 30px;
+  padding: 10px;
   color: var(--text-main);
   opacity: 70%;
 }
