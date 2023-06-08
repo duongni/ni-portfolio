@@ -95,7 +95,7 @@ h4 {
   color: var(--accent-color);
 }
 .about-content img {
-  max-width: 420px;
+  max-width: 400px;
   border-radius: 8px;
 }
 .about-header {
@@ -115,18 +115,18 @@ h4 {
 .intro {
   font-family: var(--font-nunito);
   font-style: normal;
-  font-weight: light;
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: #272142;
-  text-align: left;
+  text-align: justify;
 }
 .connect-button {
   margin-top: 126px;
   margin-bottom: 126px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 80px;
   }
