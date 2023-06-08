@@ -29,7 +29,10 @@ h4 {
   line-height: 54px;
   color: var(--text-main);
 }
-
+h3 {
+  font-size: 18px;
+  background: var(--background-accent);
+}
 .header-content {
   background: var(--background-accent);
   color: var(--text-main);
@@ -77,8 +80,8 @@ h4 {
 }
 
 .icon {
-  font-size: 20px;
-  padding: 10px;
+  font-size: 16px;
+  padding: 20px;
   color: var(--text-main);
   opacity: 70%;
 }
@@ -138,6 +141,18 @@ h4 {
 }
 .project-description {
   font-size: 18px;
+}
+.contact-container {
+  text-align: left;
+  max-width: 300px;
+  margin: auto 100px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+.link {
+  text-decoration: none;
+  color: var(--accent-color);
 }
 @media (max-width: 768px) {
   h1 {
