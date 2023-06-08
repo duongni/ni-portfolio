@@ -95,7 +95,7 @@ h4 {
   color: var(--accent-color);
 }
 .about-content img {
-  max-width: 450px;
+  max-width: 420px;
   border-radius: 8px;
 }
 .about-header {
@@ -140,5 +140,27 @@ h4 {
   }
   .footer-text {
     font-size: 8px;
+  }
+  .about-header {
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+  .about-content {
+    margin-top: 0;
+  }
+  .about-content h2 {
+    font-size: 54px;
+  }
+  .about-content img {
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  .intro {
+    text-align: center;
+  }
+  .connect {
+    padding: 18px 18px;
+    font-size: 16px;
+    margin-bottom: 60px;
   }
 }
