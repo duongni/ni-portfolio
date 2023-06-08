@@ -2,7 +2,7 @@
   --background-accent: #fff0ee;
   --background-main: #ffffff;
   --accent-color: #ffc7c2;
-  --text-main: #000000;
+  --text-main: #272142;
   --box-shadow: 0 2px 4px rgba(251, 241, 248, 0.5);
   --font-nunito: "Nunito", sans-serif;
   --font-poppins: "Poppins", sans-serif;
@@ -15,18 +15,19 @@ body {
 h1 {
   font-family: var(--font-nunito);
   font-size: 96px;
+  text-align: center;
 }
 p {
   font-weight: 400;
   font-size: 22px;
   line-height: 36px;
-  color: #0f050c;
+  color: var(--text-main);
 }
 h4 {
   font-size: 36px;
   font-weight: 700;
   line-height: 54px;
-  color: #0f050c;
+  color: var(--text-main);
 }
 
 .header-content {
@@ -92,6 +93,37 @@ h4 {
 .github {
   text-decoration: none;
   color: var(--accent-color);
+}
+.about-content img {
+  max-width: 450px;
+  border-radius: 8px;
+}
+.about-header {
+  font-family: var(--font-nunito);
+  font-size: 72px;
+  line-height: 98px;
+  color: #272142;
+  margin-top: 26px;
+  margin-bottom: 126px;
+}
+.about-content h2 {
+  font-family: var(--font-nunito);
+  font-size: 64px;
+  line-height: 87px;
+  color: #272142;
+}
+.intro {
+  font-family: var(--font-nunito);
+  font-style: normal;
+  font-weight: light;
+  font-size: 16px;
+  line-height: 30px;
+  color: #272142;
+  text-align: left;
+}
+.connect-button {
+  margin-top: 126px;
+  margin-bottom: 126px;
 }
 @media (max-width: 900px) {
   h1 {
