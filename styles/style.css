@@ -1,7 +1,7 @@
 :root {
   --background-accent: #fff0ee;
   --background-main: #ffffff;
-  --accent-color: #ffc7c2;
+  --accent-color: #fa958b;
   --text-main: #272142;
   --box-shadow: 0 2px 4px rgba(251, 241, 248, 0.5);
   --font-nunito: "Nunito", sans-serif;
@@ -125,6 +125,7 @@ h4 {
   margin-top: 126px;
   margin-bottom: 126px;
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 80px;
