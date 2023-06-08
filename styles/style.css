@@ -125,7 +125,9 @@ h4 {
   margin-top: 126px;
   margin-bottom: 126px;
 }
-
+.project-intro {
+  margin-top: 26px;
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 80px;
