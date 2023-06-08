@@ -125,8 +125,19 @@ h4 {
   margin-top: 126px;
   margin-bottom: 126px;
 }
+.last-button {
+  margin-bottom: 126px;
+}
 .project-intro {
   margin-top: 26px;
+}
+.project-img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+.project-description {
+  font-size: 18px;
 }
 @media (max-width: 768px) {
   h1 {
@@ -165,5 +176,9 @@ h4 {
     padding: 18px 18px;
     font-size: 16px;
     margin-bottom: 60px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
   }
 }
