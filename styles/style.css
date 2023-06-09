@@ -85,6 +85,7 @@ h3 {
   color: var(--text-main);
   opacity: 70%;
 }
+
 .coder-info {
   font-size: 12px;
 }
@@ -152,6 +153,9 @@ h3 {
 }
 .link {
   text-decoration: none;
+  color: var(--accent-color);
+}
+.link :hover {
   color: var(--accent-color);
 }
 @media (max-width: 768px) {
